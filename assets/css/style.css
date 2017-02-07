@@ -1,0 +1,243 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	background-image: url("../images/background.jpg");
+	background-repeat: repeat;
+}
+
+header {
+	background: #FFF;
+	border-bottom: 2px solid #ccc;
+	margin-bottom: 20px;
+	overflow: auto;
+}
+
+.header {
+	clear: both;
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.wrapper {
+	clear: both;
+	width: 960px;
+	margin: 0 auto 145px;
+	overflow: auto;
+}
+
+#logo {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: 26px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: #4aaaa5;
+	padding: 30px;
+	display: inline-block;
+	float: left;
+}
+
+#content {
+	float: left;
+	width: 650px;
+	padding: 20px;
+	background: #FFF;
+	border: 1px solid #dddddd;
+}
+
+h1 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #4aaaa5;
+	border-bottom: 2px solid #dddddd;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #4aaaa5;
+	border-bottom: 2px solid #dddddd;
+	text-align: center;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+p {
+	margin-bottom: 16px;
+	font-size: 100%;
+	line-height: 24px;
+	text-align: justify;
+}
+
+#menu-bar {
+	float: right;
+	width: 270px;
+	padding: 20px;
+	background: #FFF;
+	border: 1px solid #dddddd;
+	text-align: center;
+}
+
+footer {
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	padding: 40px;
+	background: #666666;
+	color: #BBB;
+	font-size: 14px;
+	text-align: center;
+	border-top: 8px solid #4aaaa5;
+}
+
+/* Navigation menu */
+
+nav {
+	float: right;
+	margin-top: 20px;
+}
+
+ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+li {
+	display: inline;
+}
+
+nav a:link {
+	font-size: 14px;
+	text-decoration: none;
+	color: #777777;
+	padding: 40px 20px;
+}
+
+nav a:visited {
+	font-size: 14px;
+	text-decoration: none;
+	color: #777777;
+	padding: 40px 20px;
+}
+
+nav a:hover {
+	font-size: 14px;
+	text-decoration: none;
+	background: #666666;
+	color: #FFF;
+	padding: 40px 20px;
+}
+
+nav a:active {
+	font-size: 14px;
+	text-decoration: none;
+	color: #777777;
+	padding: 40px 20px;
+}
+
+/* Project page */
+
+.left {
+	float: left;
+	margin-right: 10px;
+}
+
+.right {
+	float: right;
+	margin-left: 10px;
+}
+
+.project {
+	width: 280px;
+	height: 200px;
+	position: relative;
+	margin-bottom: 40px;
+	display: inline-block;
+}
+
+.project-title {
+	padding: 20px;
+	width: 280px;
+	position: absolute;
+	bottom: 10px;
+	background: #4aaaa5;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: 18px;
+	color: #FFF;
+	text-align: center;
+}
+
+.hangman {
+	background-image: url("../images/hangman.jpg");
+}
+
+.rpg {
+	background-image: url("../images/rpg.jpg");
+}
+
+.trivia {
+	background-image: url("../images/trivia.jpg");
+}
+
+.rutgers {
+	background-image: url("../images/widget.jpg");
+}
+
+.rockpaperscissors {
+	background-image: url("../images/rockpaperscissors.jpg");
+}
+
+/* Form styling */
+
+form {
+	width: 100%;
+}
+
+label {
+	display: block;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+input {
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 10px;
+	font-size: 14px;
+	color: #ccc;
+	border: 1px solid #dddddd;
+}
+
+textarea {
+	display: block;
+	width: 100%;
+	height: 200px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #dddddd;
+	font-size: 14px;
+	color: #ccc;
+}
+
+button {
+	display: block;
+	padding: 10px 20px;
+	margin-bottom: 10px;
+	background: #4aaaa5;
+	color: #fff;
+	font-size: 14px;
+	border: 0 none;
+}
